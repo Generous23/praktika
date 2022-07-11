@@ -1,0 +1,232 @@
+/*-----Header----*/
+header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 110%;
+    position: sticky;
+}
+
+header ul {
+     width: 752px;
+     display: flex;
+     justify-content: space-between;
+}
+header ul li, p {
+    cursor: pointer;
+}
+
+
+
+
+/*----Slider-----*/
+.slider {
+    width: 100%;
+    height: 100vh;
+    padding: 0 60px;
+    background: url("../images/slider.png") no-repeat center;
+    background-size: cover;
+}
+
+.slider h1{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 110%;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    text-shadow: 0 4px 32px rgba(0, 0, 0, 0.4);
+    position: absolute;
+    bottom: 100px;
+}
+
+
+/*----Second----*/
+
+.second {
+    margin: 200px 0 240px;
+}
+
+.second h2 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 110%;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    margin-bottom: 60px;
+}
+
+.naprs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.napr {
+    width: 545px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.napr_text {
+    width: 439px;
+}
+
+.napr_text h4 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 110%;
+    letter-spacing: -0.02em;
+    margin-bottom: 10px;
+}
+
+.napr_text p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: -0.01em;
+    color: rgba(0, 0, 0, 0.5);
+}
+.napr>p {
+    font-style: italic;
+    font-weight: 100;
+    font-size: 70px;
+    line-height: 110%;
+    text-align: right;
+    letter-spacing: -0.08em;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: rgba(0, 0, 0, 0.15);
+}
+
+
+
+
+/*--------map----------*/
+.map {
+    width: 100%;
+    height: 85vh;
+    background: url("../images/map.png") no-repeat center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.map h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.map p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 110%;
+    letter-spacing: 0.24em;
+    color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+
+/*-----fourth---*/
+
+.fourth {
+    margin-bottom: 80px;
+}
+
+.f-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.f-r h2 {
+    margin-bottom: 20px;
+}
+
+.f-content>p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: rgba(0, 0, 0, 0.8);
+    width: 496px;
+}
+
+
+
+/*-----fifth-----*/
+
+
+.contents {
+    width: 100%;
+    height: 533px;
+    background: url("../images/frame3.png") no-repeat center;
+    background-size: cover;
+    padding: 80px 0 100px 80px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.contents h2 {
+    color: #FFFFFF;
+    margin: 20px 0 30px;
+}
+.contents-1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 110%;
+    letter-spacing: -0.02em;
+    color: #A7CC4A;
+}
+
+.content3 {
+    width: 832px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
+
+/*---six---*/
+.six-content {
+    display: flex;
+    align-items: center;
+    margin: 140px 0 1000px;
+}
+
+.six-content p {
+    width: 912px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 140%;
+    letter-spacing: -0.02em;
+    margin-right: 100px;
+}
+
+.six-content img {
+    display: block;
+    margin-bottom: 20px;
+ }
